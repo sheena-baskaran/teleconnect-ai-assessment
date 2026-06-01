@@ -77,20 +77,3 @@ By end of Month 2 post-launch: every representative gets an AI response in under
 
 ---
 
-## Common Questions
-
-**Can we use the cloud with a special compliance agreement?**
-No. The requirement is that data must not leave the jurisdiction, not merely that it must be handled carefully. Cloud providers replicate data across regions at the infrastructure level — contracts don't change the underlying architecture.
-
-**What if the AI quality is still not good enough after 90 days?**
-The same hardware runs both inference and, if needed, fine-tuning. We can train the model on local interaction data to adapt it specifically to this market's customer patterns. The 90-day monitoring period gives us the data to make that call with evidence rather than guesswork.
-
-**What if the hardware fails?**
-One of the four GPUs is reserved as a failover. If the primary service encounters a hardware fault, traffic shifts to it without restarting. This is part of the deployment design, not an afterthought.
-
-**Can this architecture apply to other regulated markets?**
-Yes. Once the design and runbooks exist for this market, subsequent deployments follow the same pattern with significantly less engineering effort.
-
----
-
-We are ready to move on this as soon as we have your approval.
